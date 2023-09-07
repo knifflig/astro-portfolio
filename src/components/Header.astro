@@ -13,40 +13,35 @@ const { activeNav } = Astro.props;
 <header>
   <a id="skip-to-content" href="#main-content" class="absolute -top-full left-16 z-50 bg-skin-accent px-3 py-2 text-skin-inverted transition-all focus:top-4">Skip to content</a>
   <div class="mx-auto max-w-3xl">
-    <div class="flex sm:flex-row justify-between items-center p-8">
+    <div class="flex flex-col sm:flex-row justify-between items-center p-8">
 
       <div class="flex items-center space-x-4">
         <img class="rounded-full border-2" src="/assets/author.jpeg" width="80" height="80">
-        <div class="text-4xl"> 
+        <div class="text-3xl sm:text-4xl"> 
           <a class="" href="/">Henry Zehe</a>
         </div>
       </div>
 
       <div class="">
-        <nav id="nav-menu" class="self-end">
+        <nav id="nav-menu" class="">
           <button
             class="hamburger-menu focus-outline"
             aria-label="Open Menu"
             aria-expanded="false"
             aria-controls="menu-items"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
+            <svg xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="1.5"
+              stroke-width="0.5"
               stroke-linecap="round"
               stroke-linejoin="round"
               class="menu-icon"
             >
-              <line x1="7" y1="12" x2="21" y2="12" class="line"></line>
-              <line x1="3" y1="6" x2="21" y2="6" class="line"></line>
-              <line x1="12" y1="18" x2="21" y2="18" class="line"></line>
-              <line x1="18" y1="6" x2="6" y2="18" class="close"></line>
-              <line x1="6" y1="6" x2="18" y2="18" class="close"></line>
+              <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
             </svg>
           </button>
           <ul id="menu-items" class="display-none sm:flex">
