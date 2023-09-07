@@ -24,33 +24,21 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <main id="main-content">
     <section id="hero">
       <h1>Sociologist, data enthusiast and coffee lover.</h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="rss-link"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
-          ><path
-            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
-          ></path><path
-            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
-          ></path><circle cx="6" cy="18" r="2"></circle>
-        </svg>
-      </a>
 
       <p>
-        I'm a political scientist by training. As a keen observer of socio-political trends, I have a passion for bridging the gap between analytical methods and human behavior. I'm primarily familiar with R and Python, but have also done numerous smaller projects in other languages and am always interested in learning new ones.
-      </p>
-      <p>
-        Read the blog posts or check
+        You can find more info in the
         <LinkButton
           className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href="/about"
         >
-          README
-        </LinkButton> for more info.
+          about
+        </LinkButton> section or read my 
+        <LinkButton
+          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
+          href="/posts"
+        >
+          blog
+        </LinkButton> posts.
       </p>
       {
         // only display if at least one social link is enabled
