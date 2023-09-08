@@ -6,18 +6,85 @@ import Layout from "../layouts/Layout.astro";
 import Footer from "@components/Footer.astro";
 import Main from "../layouts/Main.astro";
 import Header from "@components/Header.astro";
+import ProgressBar from '@components/ProgressBar.astro';
 
 const title = "About me";
 ---
 <Layout title={`About | ${SITE.title}`}>
   <Header activeNav="about" />
-  <Main pageTitle="About me">
+  <Main pageTitle={title}>
     <p>I’m a political scientist by training. As a keen observer of socio-political trends, I have a passion for bridging the gap between analytical methods and human behavior. I’m primarily familiar with R and Python, but have also done numerous smaller projects in other languages and am always interested in learning new ones.</p>
+
     <div>
       <img alt="coding dev illustration" class="sm:w-1/2 mx-auto" decoding="async" fetchpriority="high" height="150" src="/assets/dev.svg" width="300">
     </div>
-    <h1 id="tech-stack">Tech Stack</h1>
-    <h1 id="story">My Story</h1>
+
+    <div id="tech-stack">
+      <h1 class="text-2xl font-semibold sm:text-3xl" >Tech Stack</h1>
+      <div class="w-full pl-0 pt-10 sm:w-3/4 lg:w-2/5 lg:pl-12 lg:pt-0">
+        <ProgressBar skill="R" percentage={80} />
+        <ProgressBar skill="Python" percentage={50} />
+        <ProgressBar skill="Javascript" percentage={20} />
+        <ProgressBar skill="Other" percentage={10} />
+      </div>
+    </div>
+    
+    <div id="story">
+      <h1 class="text-2xl font-semibold sm:text-3xl">My Story</h1>
+      <p>
+        <div class="flex flex-col md:flex-row py-4">
+            <h2 class="flex-none w-full md:w-1/4 font-mono text-xl md:text-2xl">Education</h2>
+            <div class="flex-grow w-full md:w-3/4">
+                <div class="resume-item flex m-0 p-1.5">
+                    <div class="w-1/4 m-0 p-0">2018 - 2021</div>
+                    <div class="w-3/4 m-0 p-0">
+                        <p class="m-0">Ludwig Maximilian University of Munich - Bachelor in Political Science (B.A.)</p>
+                    </div>
+                </div>
+                <div class="resume-item flex m-0 p-1.5">
+                    <div class="w-1/4 m-0 p-0">2021 - 2023</div>
+                    <div class="w-3/4 m-0 p-0">
+                        <p class="m-0">Ludwig Maximilian University of Munich - Master in Political Science (M.A.)</p>
+                    </div>
+                </div>
+                <div class="resume-item flex m-0 p-1.5">
+                    <div class="w-1/4 m-0 p-0">2023</div>
+                    <div class="w-3/4 m-0 p-0">
+                        <p class="m-0">Summer Institutes in Computational Social Science (SICSS) - Participant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex flex-col md:flex-row py-4">
+            <div class="flex-none w-full md:w-1/4 font-mono text-xl md:text-2xl">Work Experience</div>
+            <div class="flex-grow w-full md:w-3/4">
+                <div class="resume-item flex m-0 p-1.5">
+                    <div class="w-1/4 m-0 p-0">2013 - 2018</div>
+                    <div class="w-3/4 m-0 p-0">
+                        <p class="m-0">Lots of Work and lots of travel.</p>
+                        <p class="m-1 text-sm">The foundation of my current understanding of society.</p>
+                    </div>
+                </div>
+                <div class="resume-item flex m-0 p-1.5">
+                    <div class="w-1/4 m-0 p-0">2014 - 2016</div>
+                    <div class="w-3/4 m-0 p-0">
+                        <p class="m-0">Business Development Assistant at PRÜFTECHNIK Group</p>
+                        <p class="m-1 text-sm">Worked as part of a small team on a variety of topics, including risk and market analysis and setting up sales structures in the U.S.</p>
+                    </div>
+                </div>
+                <div class="resume-item flex m-0 p-1.5">
+                    <div class="w-1/4 m-0 p-0">2022 - 2023</div>
+                    <div class="w-3/4 m-0 p-0">
+                        <p class="m-0">Personal assistant of Prof. Dr. Lukas Rudolph at LMU (until March 2023) & University of Konstanz</p>
+                        <p class="m-1 text-sm">Assisted Prof. Rudolph on several projects, most notably a project examining the public as a driver or barrier to ambitious climate policy, an examination of the determinants of vaccination rates in Bangladesh, and several projects working with causal experimental survey designs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </p>
+    </div>
+  
   </Main>
   <Footer />
 </Layout>
@@ -25,3 +92,14 @@ const title = "About me";
 
 
 
+<style>
+  #main-content {
+    @apply mx-auto w-full max-w-3xl px-4 pb-12;
+  }
+  #main-content h1 {
+    @apply text-2xl font-semibold sm:text-3xl;
+  }
+  #main-content p {
+    @apply mb-6 mt-2 italic;
+  }
+</style>
