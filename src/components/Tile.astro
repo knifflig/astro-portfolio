@@ -1,18 +1,20 @@
 ---
 import { getEntry } from 'astro:content';
-
 import { slugifyStr } from "@utils/slugify";
 
-const { postTitle } = Astro.props;
-const Title = slugifyStr(postTitle)
-const Post = await getEntry('blog', Title);
+const { postID } = Astro.props;
+const ID = slugifyStr(postID);
+const Post = await getEntry('blog', ID);
 
-const link = `/posts/${Title}`;
+const icon = Post && Post.data ? Post.data.icon : 'path_to_default_icon.svg';
+const link = `/posts/${ID}`;
 ---
 
-<div class="flex flex-col backdrop-blur bg-white border border-[#ffffff29] dark:bg-slate-900 dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] p-6 relative rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] bg-cover bg-no-repeat bg-center" style={`background-image: url('${Post && Post.data ? Post.data.ogImage : 'path_to_default_image.jpg'}');`}>
-    <a href={link} class="flex flex-col justify-center items-center h-full">
-      <div class="font-bold text-xl mb-2 bg-white bg-opacity-50 p-2 rounded">{Title}</div>
-      <p class="text-muted bg-white bg-opacity-50 p-2 rounded">{Post && Post.data ? Post.data.description : 'No description'}</p>
-    </a>
-</div>
+<a class="" href={link}>
+    <div class="border w-60 h-60 relative">
+        <img src={icon} alt="Icon" class="border relative top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+    </div>
+</a>
+
+
+
