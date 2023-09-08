@@ -6,7 +6,7 @@ import Layout from "../layouts/Layout.astro";
 import Footer from "@components/Footer.astro";
 import Main from "../layouts/Main.astro";
 import Header from "@components/Header.astro";
-import ProgressBar from '@components/ProgressBar.astro';
+import Tile from "@components/Tile.astro";
 
 const title = "About me";
 ---
@@ -19,14 +19,9 @@ const title = "About me";
       <img alt="coding dev illustration" class="sm:w-1/2 mx-auto" decoding="async" fetchpriority="high" height="150" src="/assets/dev.svg" width="300">
     </div>
 
-    <div id="tech-stack">
-      <h1 class="text-2xl font-semibold sm:text-3xl" >Tech Stack</h1>
-      <div class="w-full pl-0 pt-10 sm:w-3/4 lg:w-2/5 lg:pl-12 lg:pt-0">
-        <ProgressBar skill="R" percentage={80} />
-        <ProgressBar skill="Python" percentage={50} />
-        <ProgressBar skill="Javascript" percentage={20} />
-        <ProgressBar skill="Other" percentage={10} />
-      </div>
+    <div id="skills">
+      <h1 class="text-2xl font-semibold sm:text-3xl" >Skills and Interests</h1>
+      <Tile postSlug="astro-paper-2" />
     </div>
     
     <div id="story">
