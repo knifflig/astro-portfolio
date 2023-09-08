@@ -1,23 +1,18 @@
 ---
-const { postSlug } = Astro.props;
+import { getEntry } from 'astro:content';
 
-// Construct the markdown file path using the provided postSlug
-const filePath = `../content/blog/${postSlug}.md`;
+import { slugifyStr } from "@utils/slugify";
 
-// Fetch content from the markdown file
-const content = Astro.fetchContent(filePath);
+const { postTitle } = Astro.props;
+const Title = slugifyStr(postTitle)
+const Post = await getEntry('blog', Title);
 
-// Ensure content is fetched before extracting metadata
-const markdownData = content.length ? content[0].metadata : {};
-const { title, description, ogImage } = markdownData;
-
-const link = `/posts/${postSlug}`;
+const link = `/posts/${Title}`;
 ---
 
-<div class="flex flex-col backdrop-blur bg-white border border-[#ffffff29] dark:bg-slate-900 dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] p-6 relative rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
-    <a href={link}>
-        <img src={ogImage} alt="Tile Image" class="text-primary h-12 mb-6 w-12" />
-        <div class="font-bold text-xl">{title}</div>
-        <p class="text-muted mt-2">{description}</p>
+<div class="flex flex-col backdrop-blur bg-white border border-[#ffffff29] dark:bg-slate-900 dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] p-6 relative rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] bg-cover bg-no-repeat bg-center" style={`background-image: url('${Post && Post.data ? Post.data.ogImage : 'path_to_default_image.jpg'}');`}>
+    <a href={link} class="flex flex-col justify-center items-center h-full">
+      <div class="font-bold text-xl mb-2 bg-white bg-opacity-50 p-2 rounded">{Title}</div>
+      <p class="text-muted bg-white bg-opacity-50 p-2 rounded">{Post && Post.data ? Post.data.description : 'No description'}</p>
     </a>
 </div>
