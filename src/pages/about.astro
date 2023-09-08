@@ -1,0 +1,27 @@
+---
+import { SITE } from "@config";
+
+
+import Layout from "../layouts/Layout.astro";
+import Footer from "@components/Footer.astro";
+import Main from "../layouts/Main.astro";
+import Header from "@components/Header.astro";
+
+const title = "About me";
+---
+<Layout title={`About | ${SITE.title}`}>
+  <Header activeNav="about" />
+  <Main pageTitle="About me">
+    <p>I’m a political scientist by training. As a keen observer of socio-political trends, I have a passion for bridging the gap between analytical methods and human behavior. I’m primarily familiar with R and Python, but have also done numerous smaller projects in other languages and am always interested in learning new ones.</p>
+    <div>
+      <img alt="coding dev illustration" class="sm:w-1/2 mx-auto" decoding="async" fetchpriority="high" height="150" src="/assets/dev.svg" width="300">
+    </div>
+    <h1 id="tech-stack">Tech Stack</h1>
+    <h1 id="story">My Story</h1>
+  </Main>
+  <Footer />
+</Layout>
+
+
+
+
