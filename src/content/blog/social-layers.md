@@ -1,13 +1,16 @@
 ---
-title: Social Layers
+title: Society
 author: Henry Zehe
 pubDatetime: 2023-09-08T21:33:31Z
-postSlug: social-layers
+postSlug: society
 featured: false
 draft: false
 icon: src/assets/segment.svg
 tags:
   - About
+  - Society
+  - Interests
+
 description:
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel
