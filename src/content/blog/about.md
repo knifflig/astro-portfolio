@@ -1,8 +1,8 @@
 ---
-title: Curriculum Vitae
+title: About Me
 author: Henry Zehe
 pubDatetime: 2023-09-09T12:33:31Z
-postSlug: cv
+postSlug: about
 featured: false
 draft: false
 tags:
