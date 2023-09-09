@@ -1,3 +1,6 @@
 [submodule "src/content/blog"]
 	path = src/content/blog
 	url = https://github.com/knifflig/astro-portfolio-blog-content.git
+[submodule "public/thesis"]
+	path = public/thesis
+	url = https://github.com/knifflig/master-thesis.git
