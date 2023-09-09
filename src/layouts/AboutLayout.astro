@@ -19,21 +19,12 @@ const { frontmatter } = Astro.props;
   <Header activeNav="about" />
   <Breadcrumbs />
   <main>
-    <section class="prose mb-28 max-w-3xl">
+    <section class="mb-28 max-w-3xl">
       <h1 class="text-2xl tracking-wider sm:text-3xl">{frontmatter.title}</h1>
-      <slot />
+      <markdown class="prose prose-h2:text-[#EE4B2B]">
+        <slot />
+      </markdown>
     </section>
   </main>
   <Footer />
 </Layout>
-
-<style>
-  img {
-    border-radius: 1rem; /* Gives rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow */
-    display: block; /* To ensure margins apply correctly */
-    margin: 0 auto; /* Centers the image horizontally */
-    max-width: 50%; /* Makes the image take up to half the container's width */
-    margin-bottom: 1rem; /* Adds a bottom margin for separation */
-  }
-</style>

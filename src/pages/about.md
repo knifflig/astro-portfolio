@@ -1,14 +1,9 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: About
+title: About Me
 author: Henry Zehe
-pubDatetime: 2023-09-09T12:33:31Z
-postSlug: cv
-featured: false
-draft: false
 tags:
   - About
-
 description:
   I’m a political scientist by training. As a keen observer of socio-political trends, I have a passion for bridging the gap between analytical methods and human behavior. I’m primarily familiar with R and Python, but have also done numerous smaller projects in other languages and am always interested in learning new ones.
 ---
@@ -52,23 +47,23 @@ Focused on the challenges of democracy, public policy, and surveys in political 
 
 ## Working Experiences
 
-### *2014 - 2016*
-
-#### Business Development Assistant @PRÜFTECHNIK Group
-
-Worked as part of a small team on a variety of topics, including risk and market analysis and setting up sales structures in the U.S.
-
 ### *2022-2023*
 
 #### Personal assistant of Prof. Dr. Lukas Rudolph @LMU & @University of Konstanz
 
 Assisted Prof. Rudolph on several projects, most notably a project examining the public as a driver or barrier to ambitious climate policy, an examination of the determinants of vaccination rates in Bangladesh, and several projects working with causal experimental survey designs.
 
+### *2014 - 2016*
+
+#### Business Development Assistant @PRÜFTECHNIK Group
+
+Worked as part of a small team on a variety of topics, including risk and market analysis and setting up sales structures in the U.S.
+
 ## Other Experiences
 
 ### *Jul 2023*
 
-#### Summer Institutes in Computational Social Science ([SICSS](https://sicss.io/2023/munich/ "SICSS"))
+#### Participant @Summer Institutes in Computational Social Science ([SICSS](https://sicss.io/2023/munich/ "SICSS"))
 
 Participated in an intensive program focused on equipping social scientists with computational skills. Gain hands-on experience with machine learning, data scraping, and statistical modeling techniques. Worked on collaborative projects that applied these skills to real-world social science problems, such as public opinion analysis.
 
