@@ -1,7 +1,7 @@
 ---
 title: testentry from RMarkdown
 author: Henry Zehe
-pubDatetime: "`r Sys.Date()`"
+pubDatetime: 2023-10-09T12:33:31Z
 postSlug: test
 featured: false
 draft: false
