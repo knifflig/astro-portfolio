@@ -18,13 +18,13 @@ description:
 
 ## Skills
 
-I mainly worked with [#R](/tags/r "R") and [#python](/tags/python "Python") for machine learning, but also have done some web development with [#alpine](/tags/alpine "alpine") / [#react](/tags/react "react") components with [#tailwindcss](/tags/tailwindcss "tailwindcss") in [#javascript](/tags/javascript "javascript") / [#typescript](/tags/typescript "typescript").
+Using advanced techniques such as content analysis, I enjoy exploring dimensions of social stratification to inform policy development and communication strategies. I specialize in causal" inference, delving deep into the "why" behind observable social and political phenomena. I am also committed to well done data vizualisation and development" of tools and applications that make statistical analysis accessible, providing intuitive interfaces for complex computations.
 
-Using advanced techniques such as [#content](/tags/content "content") analysis, I enjoy exploring dimensions of social stratification to inform policy development and communication strategies. I specialize in [#causal](/tags/causal "causal") inference, delving deep into the "why" behind observable social and political phenomena. I am also committed to well done data vizualisation and [#development](/tags/development "development") of tools and applications that make statistical analysis accessible, providing intuitive interfaces for complex computations.
+I mainly worked with [#R](/tags/r "R") and [#python](/tags/python "Python") for machine learning, but also have done some web development with [#alpine](/tags/alpine "alpine") / [#react](/tags/react "react") components with [#tailwindcss](/tags/tailwindcss "tailwindcss") in [#javascript](/tags/javascript "javascript") / [#typescript](/tags/typescript "typescript").
 
 ## Interests
 
-I am deeply interested in exploring the intricate layers of [#society](/tags/society "society"), understanding [#perceptions](/tags/perceptions "perceptions") of inequality between different social groups, and delving into the narratives behind human [#behaviour](/tags/behaviour "behaviour"). My work focuses on the complexities of social identities, the influence of political communication on social discourse, and the stories told through individual behaviour, particularly in the face of environmental stimuli. These interests underpin my commitment to developing informed strategies that resonate with diverse audiences.
+I am deeply interested in exploring the intricate layers of society", understanding perceptions of inequality between different social groups, and delving into the narratives behind human behaviour. My work focuses on the complexities of social identities, the influence of political communication on social discourse, and the stories told through individual behaviour, particularly in the face of environmental stimuli. These interests underpin my commitment to developing informed strategies that resonate with diverse audiences.
 
 If you are more interested, you can find contributions and case studies on my [#interests](/tags/interests "interests") and [#skills](/tags/skills "skills") following the associated tags.
 
