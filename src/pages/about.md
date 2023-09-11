@@ -20,7 +20,7 @@ description:
 
 Using advanced techniques such as content analysis, I enjoy exploring dimensions of social stratification to inform policy development and communication strategies. I specialize in causal" inference, delving deep into the "why" behind observable social and political phenomena. I am also committed to well done data vizualisation and development" of tools and applications that make statistical analysis accessible, providing intuitive interfaces for complex computations.
 
-I mainly worked with [#R](/tags/r "R") and [#python](/tags/python "Python") for machine learning, but also have done some web development with [#alpine](/tags/alpine "alpine") / [#react](/tags/react "react") components with [#tailwindcss](/tags/tailwindcss "tailwindcss") in [#javascript](/tags/javascript "javascript") / [#typescript](/tags/typescript "typescript").
+I mainly worked with [#R](/tags/r "R") and [#python](/tags/python "Python") for machine learning, but also have done some web development with [#alpine](/tags/alpine "alpine") / [#react](/tags/react "react") components with [#tailwindcss](/tags/tailwindcss "tailwindcss") in [#javascript](/tags/javascript "javascript") / [#typescript](/tags/typescript "typescript"). For larger data storage i usually use [#mysql](/tags/mysql "mysql").
 
 ## Interests
 
@@ -45,7 +45,7 @@ If you are more interested, you can find contributions and case studies on my [#
         <div class="flex p-1.5 text-sm">
             <div class="w-1/3 font-bold">Okt 2018 - Sep 2021</div>
             <div class="w-2/3">
-                <p class="m-0 text-md font-bold ">Bachelor in Political Science (B.A.)</p>
+                <p class="m-0 text-md font-bold ">Bachelor in Political Science (B.A.) & National Economics</p>
                 <p class="m-0 italic">Ludwig Maximilian University of Munich</p>
                 <h4 class="">Thesis:</h4>
                 <p class="">Protest mobilisation in context - Studies on the structural causes of protests (graded 1,7)</p>

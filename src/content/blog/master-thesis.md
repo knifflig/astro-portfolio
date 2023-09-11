@@ -22,7 +22,7 @@ A heartfelt acknowledgment to my professor; the guidance I received was invaluab
 
 While this thesis concludes a significant phase of my journey, it by no means signifies the end. I find myself eager to delve into new projects and challenges. With this transition, I've decided to pen down my thoughts and explorations more consistently. I've set up a blog and intend to share updates, including some on Mastodon. Through this platform, I hope to discuss some of the smaller and bigger projects I've undertaken in recent times. I look forward to sharing, learning, and connecting with those interested. Your perspectives, should you wish to share, will always be welcome.
 
-For those curious about the thesis, the abstract is available below, and the complete document can be accessed here.
+For those curious about the thesis, the abstract is available below, and the complete document can be accessed [here](/public/thesis "thesis").
 
 Cheers!
 
