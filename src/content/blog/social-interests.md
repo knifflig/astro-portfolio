@@ -56,4 +56,5 @@ Every nod, every silence, every movement carries a story, a chronicle of human b
 I have a passionate interest in understanding these nuances of society beyond academic pursuits. Through advanced tools and keen observation, I seek to delve into societal identities, understand how perceptions influence narratives, and decipher the silent stories behind human actions. These interests reflect not only my quest for knowledge, but also my deep motivation to understand the subtle intricacies of humankind. Would love to hear your thoughts on this.
 
 Keep up and stay tuned.
+
 Henry

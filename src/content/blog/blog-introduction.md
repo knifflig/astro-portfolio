@@ -93,5 +93,7 @@ My coffee journey has come a long way since then. I currently have an ECM Synchr
 ---
 
 So here's to the simple yet profound pleasures in life—may our cups and minds always be full.
+
 Keep up and stay tuned.
+
 Henry

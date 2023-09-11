@@ -24,9 +24,14 @@ While this thesis concludes a significant phase of my journey, it by no means si
 
 For those curious about the thesis, the abstract is available below, and the complete document can be accessed [here](/public/thesis "thesis").
 
-Cheers!
-
-
 ## Abstract
 
 *Scholars of democratic governance have provided substantial evidence of a lack of responsiveness to groups such as women, low-income populations, and minorities. However, the representation of young adults in the political process has received comparatively little attention. Existing research has focused primarily on the low numbers of young representatives in assemblies and the lack of conventional political participation, overlooking a critical question. Is there a gap in the representation of young adults in political outcomes? Adopting a comprehensive approach that integrates dynamic and group representation mechanisms, this thesis examines whether the interests of young voters are adequately met and identifies the key factors that influence legislators’ responsiveness. Using two-way linear fixed effects (2FE) regressions on data from 25 wealthy democracies over the past twenty years, the study identifies broad trends affecting the representation of young adults. Contrary to traditional assumptions, the results show that common characteristics, rather than electoral strategies, are the primary drivers of politicians’ deliberations. This challenges the prevailing narrative that low voter turnout among young adults is the primary reason for their underrepresentation. The study underscores the importance of group representation in shaping political outcomes, highlighting the urgent need to address numerical representation gaps, particularly in the face of impending demographic shifts toward older societies and increased dependence on young adults.*
+
+---
+
+So here's to the simple yet profound pleasures in life—may our cups and minds always be full.
+
+Keep up and stay tuned.
+
+Henry
