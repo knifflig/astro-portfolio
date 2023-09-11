@@ -7,8 +7,9 @@ tags:
 description:
   I’m a political scientist by training. As a keen observer of socio-political trends, I have a passion for bridging the gap between analytical methods and human behavior. I’m primarily familiar with R and Python, but have also done numerous smaller projects in other languages and am always interested in learning new ones.
 ---
+
 <div class="container flex mx-auto flex-col sm:flex-row">
-  <div class="container mx-auto sm:pr-6 sm:place-self-center">
+  <div class="container mx-auto p-6 sm:place-self-center">
     <img src="/assets/author2.jpg" class="rounded-2xl w-[60vw]">
   </div>
   <div class="container mx-auto sm:place-self-center">
@@ -18,13 +19,13 @@ description:
 
 ## Skills
 
-Using advanced techniques such as content analysis, I enjoy exploring dimensions of social stratification to inform policy development and communication strategies. I specialize in causal" inference, delving deep into the "why" behind observable social and political phenomena. I am also committed to well done data vizualisation and development" of tools and applications that make statistical analysis accessible, providing intuitive interfaces for complex computations.
+Using advanced techniques such as content analysis, I enjoy exploring dimensions of social stratification to inform policy development and communication strategies. I specialize in causal inference, delving deep into the "why" behind observable social and political phenomena. I am also committed to well done data vizualisation and development of tools and applications that make statistical analysis accessible, providing intuitive interfaces for complex computations.
 
 I mainly worked with [#R](/tags/r "R") and [#python](/tags/python "Python") for machine learning, but also have done some web development with [#alpine](/tags/alpine "alpine") / [#react](/tags/react "react") components with [#tailwindcss](/tags/tailwindcss "tailwindcss") in [#javascript](/tags/javascript "javascript") / [#typescript](/tags/typescript "typescript"). For larger data storage i usually use [#mysql](/tags/mysql "mysql").
 
 ## Interests
 
-I am deeply interested in exploring the intricate layers of society", understanding perceptions of inequality between different social groups, and delving into the narratives behind human behaviour. My work focuses on the complexities of social identities, the influence of political communication on social discourse, and the stories told through individual behaviour, particularly in the face of environmental stimuli. These interests underpin my commitment to developing informed strategies that resonate with diverse audiences.
+I am deeply interested in exploring the intricate layers of society, understanding perceptions of inequality between different social groups, and delving into the narratives behind human behaviour. My work focuses on the complexities of social identities, the influence of political communication on social discourse, and the stories told through individual behaviour, particularly in the face of environmental stimuli. These interests underpin my commitment to developing informed strategies that resonate with diverse audiences.
 
 If you are more interested, you can find contributions and case studies on my [#interests](/tags/interests "interests") and [#skills](/tags/skills "skills") following the associated tags.
 
