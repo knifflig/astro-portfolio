@@ -7,11 +7,11 @@ tags:
 description:
   I’m a political scientist by training. As a keen observer of socio-political trends, I have a passion for bridging the gap between analytical methods and human behavior. I’m primarily familiar with R and Python, but have also done numerous smaller projects in other languages and am always interested in learning new ones.
 ---
-<div class="flex flex-col sm:flex-row place-content-center p-0">
-  <div class="flex p-2 w-[40vw]">
-    <img src="/assets/author2.jpg" class="rounded-2xl ">
+<div class="container flex mx-auto flex-col sm:flex-row">
+  <div class="container mx-auto sm:pr-6 sm:place-self-center">
+    <img src="/assets/author2.jpg" class="rounded-2xl w-[60vw]">
   </div>
-  <div class="flex p-4 w-[60vw]">
+  <div class="container mx-auto sm:place-self-center">
     <p>I’m a political scientist by training. As a keen observer of socio-political trends, I have a passion for bridging the gap between analytical methods and human behavior. I’m primarily familiar with R and Python, but have also done numerous smaller projects in other languages and am always interested in learning new ones.</p>
   </div>
 </div>
