@@ -6,11 +6,20 @@ postSlug: blog-introduction
 featured: true
 draft: false
 tags:
-  - About
-  - Interests
-  - Skills
+  - about
+  - interests
+  - skills
   - social-science
-  - 
+  - society
+  - perception
+  - behavior
+  - content-analysis
+  - causal-inference
+  - visualization
+  - espresso
+  - coffee
+  - espresso-gear
+  - espresso-beans
 
 description:
   In this inaugural blog post, I dive into my curiosities - from the nuances of political science, to the allure of data visualisation, to the sublime art of espresso. I warmly invite you to join me and share your own perspectives. Stay tuned for more.

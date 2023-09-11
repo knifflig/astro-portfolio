@@ -6,9 +6,12 @@ postSlug: social-interests
 featured: false
 draft: false
 tags:
-  - About
-  - Interests
+  - about
+  - interests
   - social-science
+  - society
+  - perception
+  - behavior
 
 description:
   Diving into my passions for social science, I give a short journey through my thoughts on society, perception and the narratives of behaviour.
