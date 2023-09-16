@@ -13,13 +13,21 @@ description:
     <img src="/assets/author2.jpg" class="rounded-2xl w-[60vw]">
   </div>
   <div class="container mx-auto sm:place-self-center">
-    <p>I’m a political scientist by training. As a keen observer of socio-political trends, I have a passion for bridging the gap between analytical methods and human behavior. I’m primarily familiar with R and Python, but have also done numerous smaller projects in other languages and am always interested in learning new ones.</p>
+    <p>I’m a political scientist by training. As a keen observer of social, I have a passion for bridging the gap between analytical methods and human behavior. I’m primarily familiar with R and Python, but have also done numerous smaller projects in other languages and am always interested in learning new ones.</p>
   </div>
 </div>
 
-## Skills
+## Phrases you might hear
 
-Using advanced techniques such as content analysis, I enjoy exploring dimensions of social stratification to inform policy development and communication strategies. I specialize in causal inference, delving deep into the "why" behind observable social and political phenomena. I am also committed to well done data vizualisation and development of tools and applications that make statistical analysis accessible, providing intuitive interfaces for complex computations.
+- **"Who does what and why"** | Using advanced techniques such as content analysis, I enjoy making evidence-based decisions when solving problems. I particularly enjoy econometric methods such as causal inference, which explores the 'why' behind observable phenomena.
+
+- **"Ink per information"** | I am passionate about well-designed data visualisation and the development of tools and applications that make statistical analysis accessible by providing intuitive interfaces to complex computations.
+
+- **"Stay lean"** | My approach to problems tends to be inherently structured; you'll often find me sketching out mind maps or workflow diagrams to visualise the challenge at hand. This helps me find lean processes no matter what the problem on the stack, and I really enjoy finding smart alternatives to cumbersome approaches.
+
+- **"Sharing is caring"** | I'm at my best when I'm working with people who share their knowledge. People who, like me, are always curious to explore new frontiers. In our fast-paced digital age, the ability to collaborate in real time is a boon. Working not only in shared documents but also in digital workspaces (Github + Scrum ❤️) is definitely a green flag.
+
+## Tech Stack
 
 I mainly worked with [#R](/tags/r "R") and [#python](/tags/python "Python") for machine learning, but also have done some web development with [#alpine](/tags/alpine "alpine") / [#react](/tags/react "react") components with [#tailwindcss](/tags/tailwindcss "tailwindcss") in [#javascript](/tags/javascript "javascript") / [#typescript](/tags/typescript "typescript"). For larger data storage i usually use [#mysql](/tags/mysql "mysql").
 

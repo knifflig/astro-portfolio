@@ -3,7 +3,7 @@ title: 🎓 Master Thesis graded 1,0
 author: Henry Zehe
 pubDatetime: 2023-09-09T20:20:31Z
 postSlug: thesis
-featured: false
+featured: true
 draft: false
 tags:
   - Uni
