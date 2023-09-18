@@ -21,8 +21,7 @@ tags:
   - espresso-gear
   - espresso-beans
 
-description:
-  In this inaugural blog post, I dive into my curiosities - from the nuances of political science, to the allure of data visualisation, to the sublime art of espresso. I warmly invite you to join me and share your own perspectives. Stay tuned for more.
+description: In this inaugural blog post, I dive into my curiosities - from the nuances of political science, to the allure of data visualisation, to the sublime art of espresso. I warmly invite you to join me and share your own perspectives. Stay tuned for more.
 ---
 
 ## Hello Everyone
@@ -56,7 +55,7 @@ Why is this important? Looking at correlations alone can sometimes lead us to be
 
 <div class="flex flex-col sm:flex-row place-content-center p-0">
   <div class="flex p-2 w-full">
-    <img src="/assets/blog/spurious.png" class="rounded-2xl ">
+    <img src="/blog_src/blog-introduction/spurious.png" class="rounded-2xl ">
   </div>
 </div>
 
@@ -70,7 +69,7 @@ My own journey into creating charts and graphs began as a necessity, but quickly
 
 <div class="flex flex-col sm:flex-row place-content-center p-0">
   <div class="flex p-2 w-full">
-    <img src="/assets/blog/Minard_russia.jpeg" class="rounded-2xl ">
+    <img src="/blog_src/blog-introduction/Minard_russia.jpeg" class="rounded-2xl ">
   </div>
 </div>
 
@@ -80,15 +79,15 @@ For those intrigued by this intersection of art and science, you're in for a tre
 
 ## ☕ A Brew-tiful Journey
 
-While we delve into the depths of political science, data analysis and social patterns, let's take a moment to venture into a different but equally fascinating world - the sublime art of making and enjoying espresso. Although seemingly disparate, there are striking parallels between my other interests and my love of coffee. Both are fields where process and outcome are deeply intertwined, and a nuanced understanding of the variables can make all the difference. Whether it's a socio-political trend or a shot of espresso, dissecting the drivers behind the results is both a science and an art. Whether it's adjusting the grind size or tweaking a Python script, the devil really is in the details. My own introduction to espresso was a happy accident. It started with an old, broken Rancilio Silvia. "How hard could it be to fix?" I wondered. As it turned out, not too hard. Using the Raspberry Pi to build my own PID temperature controller was not only functional, it was almost free. And just like that, a new, albeit expensive, hobby was born. 
+While we delve into the depths of political science, data analysis and social patterns, let's take a moment to venture into a different but equally fascinating world - the sublime art of making and enjoying espresso. Although seemingly disparate, there are striking parallels between my other interests and my love of coffee. Both are fields where process and outcome are deeply intertwined, and a nuanced understanding of the variables can make all the difference. Whether it's a socio-political trend or a shot of espresso, dissecting the drivers behind the results is both a science and an art. Whether it's adjusting the grind size or tweaking a Python script, the devil really is in the details. My own introduction to espresso was a happy accident. It started with an old, broken Rancilio Silvia. "How hard could it be to fix?" I wondered. As it turned out, not too hard. Using the Raspberry Pi to build my own PID temperature controller was not only functional, it was almost free. And just like that, a new, albeit expensive, hobby was born.
 
 <div class="flex flex-col sm:flex-row place-content-center p-0">
   <div class="flex p-2 w-full">
-    <img src="/assets/blog/coffee_gear_2023_09_11.jpeg" class="rounded-2xl ">
+    <img src="/blog_src/blog-introduction/coffee_gear_2023_09_11.jpeg" class="rounded-2xl ">
   </div>
 </div>
 
-My coffee journey has come a long way since then. I currently have an ECM Synchronica coupled with a Eureka Mignon Specialita, and I'm eagerly awaiting delivery of my  [Timemore Sculpture 078S grinder](https://www.timemore.com.au/products/sculptor-078s-electric-coffee-grinder-espresso-filter "T 078S"). As for coffee beans, my current favourite is the GUAVA BANANA from [Pacande Coffee](https://pacande.com "Pacande Coffee") in Munich. For fellow coffee lovers or curious beginners, keep an eye out for posts about new equipment, beans and coffee spots I come across. Whether you're a connoisseur or just someone who enjoys a good cup, I'd love to hear your thoughts and recommendations.
+My coffee journey has come a long way since then. I currently have an ECM Synchronica coupled with a Eureka Mignon Specialita, and I'm eagerly awaiting delivery of my [Timemore Sculpture 078S grinder](https://www.timemore.com.au/products/sculptor-078s-electric-coffee-grinder-espresso-filter "T 078S"). As for coffee beans, my current favourite is the GUAVA BANANA from [Pacande Coffee](https://pacande.com "Pacande Coffee") in Munich. For fellow coffee lovers or curious beginners, keep an eye out for posts about new equipment, beans and coffee spots I come across. Whether you're a connoisseur or just someone who enjoys a good cup, I'd love to hear your thoughts and recommendations.
 
 ---
 
