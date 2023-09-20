@@ -5,6 +5,7 @@ pubDatetime: 2023-09-07T10:20:24Z
 postSlug: blog-introduction
 featured: true
 draft: false
+ogImage: /blog_src/blog-introduction/Minard_russia.jpeg
 tags:
   - about
   - interests
