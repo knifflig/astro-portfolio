@@ -5,7 +5,7 @@ pubDatetime: 2023-09-07T10:20:24Z
 postSlug: blog-introduction
 featured: true
 draft: false
-ogImage: /blog_src/blog-introduction/Minard_russia.jpeg
+ogImage: /blog_src/blog-introduction/header.png
 tags:
   - about
   - interests
@@ -27,14 +27,14 @@ description: In this inaugural blog post, I dive into my curiosities - from the 
 
 ## Hello Everyone
 
-<div class="container flex mx-auto flex-col sm:flex-row">
-  <div class="container mx-auto sm:pr-6 sm:place-self-center">
-    <img src="/assets/author2.jpg" class="rounded-2xl w-[60vw]">
-  </div>
-  <div class="container mx-auto sm:place-self-center">
-    <p>I'm delighted to welcome you to this new space, a blog where my ideas, observations and projects can find a home. Over the past few years, my curiosity has led me to delve into a number of topics, both in academia and in my personal life. It's a fascinating process to immerse yourself in different areas of interest, and one that I've found incredibly rewarding. </p>
+<div class="flex flex-row items-start w-full p-0">
+  <div>
+    <img src="/assets/author2.jpg" class="rounded-2xl float-left h-48 mb-0 p-2 border-none">
+    <p class="mt-2">I'm delighted to welcome you to this new space, a blog where my ideas, observations and projects can find a home. Over the past few years, my curiosity has led me to delve into a number of topics, both in academia and in my personal life. It's a fascinating process to immerse yourself in different areas of interest, and one that I've found incredibly rewarding.</p>
   </div>
 </div>
+
+---
 
 Balancing multiple small and large projects has been a constant endeavour, fuelled by this insatiable curiosity. Each project brings its own set of challenges and rewards, and it's the story behind these experiences that I'm keen to share. Of course, I'm equally keen to hear your perspectives and insights; after all, a conversation is most enriching when it's a two-way street. While Twitter was a haven for such interactions, its unfortunate demise took that away. But as the saying goes, when one door closes, a window - or maybe even another door - opens. This blog aims to be that new vessel for a more nuanced and fulfilling discourse. Expect regular posts about various projects I'm working on, as well as ruminations on topics that pique my interest, and hopefully yours. For those who prefer other platforms, I'll also be posting updates on Mastodon and possibly Reddit.
 
