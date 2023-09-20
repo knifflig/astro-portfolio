@@ -29,7 +29,7 @@ description: In this inaugural blog post, I dive into my curiosities - from the 
 
 <div class="flex flex-row items-start w-full p-0">
   <div>
-    <img src="/assets/author2.jpg" class="rounded-2xl float-left h-48 mb-0 p-2 border-none">
+    <img src="/assets/author2.jpg" class="rounded-2xl float-left h-48 w-48 mb-0 p-2 border-none">
     <p class="mt-2">I'm delighted to welcome you to this new space, a blog where my ideas, observations and projects can find a home. Over the past few years, my curiosity has led me to delve into a number of topics, both in academia and in my personal life. It's a fascinating process to immerse yourself in different areas of interest, and one that I've found incredibly rewarding.</p>
   </div>
 </div>
