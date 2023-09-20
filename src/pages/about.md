@@ -8,12 +8,10 @@ description:
   I’m a political scientist by training. As a keen observer of socio-political trends, I have a passion for bridging the gap between analytical methods and human behavior. I’m primarily familiar with R and Python, but have also done numerous smaller projects in other languages and am always interested in learning new ones.
 ---
 
-<div class="container flex mx-auto flex-col sm:flex-row">
-  <div class="container mx-auto p-6 sm:place-self-center">
-    <img src="/assets/author2.jpg" class="rounded-2xl w-[60vw]">
-  </div>
-  <div class="container mx-auto sm:place-self-center">
-    <p>I’m a political scientist by training. As a keen observer of social, I have a passion for bridging the gap between analytical methods and human behavior. I’m primarily familiar with R and Python, but have also done numerous smaller projects in other languages and am always interested in learning new ones.</p>
+<div class="flex flex-row items-start w-full p-0">
+  <div>
+    <img src="/assets/author2.jpg" class="rounded-2xl float-left h-48 w-48 mb-0 p-2 border-none">
+    <p class="mt-2">I’m a political scientist by training. As a keen observer of society, I have a passion for bridging the gap between analytical methods and humans. I’m primarily familiar with R and Python, but have also done numerous smaller projects with other languages and frameworks and am always interested in learning new ones.</p>
   </div>
 </div>
 
