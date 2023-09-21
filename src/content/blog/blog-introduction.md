@@ -27,10 +27,10 @@ description: In this inaugural blog post, I dive into my curiosities - from the 
 
 ## Hello Everyone
 
-<div class="flex flex-row items-start w-full p-0">
-  <div>
-    <img src="/assets/author2.jpg" class="rounded-2xl float-left h-48 w-48 mb-0 p-2 border-none">
-    <p class="mt-2">I'm delighted to welcome you to this new space, a blog where my ideas, observations and projects can find a home. Over the past few years, my curiosity has led me to delve into a number of topics, both in academia and in my personal life. It's a fascinating process to immerse yourself in different areas of interest, and one that I've found incredibly rewarding.</p>
+<div class="flex flex-row items-start w-full p-0 mt-12">
+  <div class="">
+    <img src="/assets/author.jpeg" class="rounded-2xl float-left h-48 w-48 mb-0 mr-10 border-none">
+    <p class="mt-2">I’m a political scientist by training. As a keen observer of society, I have a passion for bridging the gap between analytical methods and humans. I’m primarily familiar with R and Python, but have also done numerous smaller projects with other languages and frameworks and am always interested in learning new ones.</p>
   </div>
 </div>
 
