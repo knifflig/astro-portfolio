@@ -1,5 +1,5 @@
 ---
-title: 📊 The Do’s and Don’ts of Data Visualization
+title: 📊 What Data Visualization Is and What It's Not
 author: Henry Zehe
 pubDatetime: 2023-09-25T14:20:24Z
 postSlug: regio-charging-2
@@ -17,14 +17,35 @@ tags:
 description: The power of insight. I share 4 principles that help turn complex data into compelling stories. From maximising data ink to avoiding chart junk, my latest blog post offers a practical guide to improving your data visualisation skills. 
 ---
 
-## What is Data Visualization?
-Data visualization is more than a buzzword; it's a powerful tool that transforms raw, often confusing data into a digestible and visually appealing format. This transformation is not just about making data look good; it's about making it understandable and actionable. Here's how it works:
+Data visualization is more than a buzzword; it's a powerful tool that transforms raw, often confusing data into a digestible and visually appealing format. This transformation is not just about making data look good; it's about making it understandable and actionable. I think this alluvial plot from the [NY Times](https://www.nytimes.com/interactive/2016/08/08/sports/olympics/history-olympic-dominance-charts.html) is a good example of how it can be done:
 
-Data visualization is a **storytelling medium**. It's not merely a process of laying out numbers in graphical form; it's about converting those numbers into a narrative. That narrative can illuminate trends, patterns, and insights that might otherwise remain buried in spreadsheets. The storytelling aspect is crucial for making the data relatable and understandable, especially to those who aren't data experts. One of the strengths of data visualization is that it can serve as a universal language that **bridges the gap between Experts and Non-Experts**. A well-crafted chart or graph can often say more than a lengthy report, making it a useful tool for quick and effective communication. Now, it's not just about making data understandable; it's about making it **Engaging and Memorable**. Visual elements like colors and shapes not only make the data aesthetically pleasing but also evoke emotional responses. When used effectively, these elements can reinforce the core message of the data, making it memorable and impactful. By distilling complex data into easily digestible visual formats, data visualization accelerates the **decision-making** process. Stakeholders can quickly identify trends, correlations, and outliers that would be less apparent in raw data. This clarity enhances the quality of decisions while also saving time and resources. Moreover, data visualization promotes **Collaboration and Communication**. Its shareable nature makes it an excellent tool for team discussions, presentations, and reports. Visuals offer a shared point of reference, which can make these interactions more focused and productive.
+<img src="/blog_src/regio-charging-2/A_Visual_History_of_Which_Countries_Have_Dominated_the_Summer_Olympics_-_The_New_York_Times.png" alt="Regions with regression" class="border-none p-4"></img>
+
+The plot effectively portrays the evolving performance of countries across Olympic events through colorful flows. Clear labels and focused call-outs guide the viewer's attention, making the complex data easily understandable. Grouping countries together minimizes clutter, further aiding comprehension. Overall, the plot exemplifies how well-executed data visualization can serve as a powerful tool for communication, decision-making, and collaboration.
+
+## What is Data Visualization?
+
+Data visualization is a **storytelling medium**. It's not merely a process of laying out numbers in graphical form; it's about converting those numbers into a narrative. That narrative can illuminate trends, patterns, and insights that might otherwise remain buried in spreadsheets. The storytelling aspect is crucial for making the data relatable and understandable, especially to those who aren't data experts.
+
+One of the strengths of data visualization is that it can serve as a universal language that **bridges the gap between Experts and Non-Experts**. A well-crafted chart or graph can often say more than a lengthy report, making it a useful tool for quick and effective communication.
+
+Now, it's not just about making data understandable; it's about making it **Engaging and Memorable**. Visual elements like colors and shapes not only make the data aesthetically pleasing but also evoke emotional responses. When used effectively, these elements can reinforce the core message of the data, making it memorable and impactful.
+
+By distilling complex data into easily digestible visual formats, data visualization accelerates the **decision-making** process. Stakeholders can quickly identify trends, correlations, and outliers that would be less apparent in raw data. This clarity enhances the quality of decisions while also saving time and resources.
+
+Moreover, data visualization promotes **Collaboration and Communication**. Its shareable nature makes it an excellent tool for team discussions, presentations, and reports. Visuals offer a shared point of reference, which can make these interactions more focused and productive.
 
 ## What is Data Visualization Not?
 
-However, let's not forget what Data Visualization Is Not: While a visually appealing chart can capture attention, the primary goal of data visualization is not aesthetic. Overemphasizing the visual aspect can distract from the core message and even lead to misinterpretations. Similarly, data visualization is **Not One-Size-Fits-All**. Different datasets and audiences might require different types of visual representation. Using the same types of charts or dashboards for various kinds of data can result in either an information overload or a dearth of necessary information. And speaking of dashboards, while they are fantastic tools for tracking Key Performance Indicators (KPIs), they're not the be-all and end-all. It's crucial to understand what a **dashboard can and cannot measure**, ensuring that it complements, rather than replaces, thorough analysis. Finally, while visualizations can aid in decision-making, they should Not Substitute for **Critical Thinking**. They offer a "snapshot" of the data, but they're not a replacement for thorough analysis or discussion. They should be the starting point, prompting further investigation and analytical thinking.
+However, let's not forget what Data Visualization Is Not: While a visually appealing chart can capture attention, the primary goal of data visualization is not aesthetic. Overemphasizing the visual aspect can distract from the core message and even lead to misinterpretations. Similarly, data visualization is **Not One-Size-Fits-All**. Different datasets and audiences might require different types of visual representation.
+
+Using the same types of charts or dashboards for various kinds of data can result in either an information overload or a dearth of necessary information. And speaking of dashboards, while they are fantastic tools for tracking Key Performance Indicators (KPIs), they're not the be-all and end-all. It's crucial to understand what a **dashboard can and cannot measure**, ensuring that it complements, rather than replaces, thorough analysis.
+
+Finally, while visualizations can aid in decision-making, they should Not Substitute for **critical thinking**. They offer a "snapshot" of the data, but they're not a replacement for thorough analysis or discussion. They should be the starting point, prompting further investigation and analytical thinking.
+
+Here is an example which i took from [this](https://medium.com/plotly/maximizing-the-data-ink-ratio-in-dashboards-and-slide-deck-7887f7c1fab) blog post:
+
+<img src="/blog_src/regio-charging-2/original_image.png" alt="Tufte style" class="border-none p-4"></img>
 
 ## 4 Principles for Well-Designed Data Visualization
 
@@ -40,6 +61,8 @@ This may seem like a lot to consider when creating a data visualization, but the
 
 Understanding and applying these principles can significantly enhance the effectiveness of your data visualization efforts, making them not just visually appealing but also highly functional and insightful.
 
+<img src="/blog_src/regio-charging-2/image_transform.gif" alt="Tufte style" class="border-none p-4"></img>
+
 ## Exploring the Dynamics of Electric Vehicle Charging Infrastructure
 
 To illustrate the significance of advancements in electric vehicle (EV) charging infrastructure, let's examine some real-world data, particularly focusing on Germany. This is a timely issue, as the availability of public charging stations is a crucial factor for the widespread adoption of EVs, especially in urban settings. As of the end of 2022, there were 2.7 million public charging points globally—a 55% increase from the previous year. The ratio of electric light-duty vehicles (LDVs) to each charging point was around ten, according to global statistics provided by the International Energy Agency ([IEA](https://www.iea.org/reports/global-ev-outlook-2023/trends-in-charging-infrastructure)). Both the European Union and the United States have committed substantial funding to advance this sector further.
@@ -48,11 +71,11 @@ In the analyzed data from Germany, the average ratio of EVs to each charging sta
 
 To make sense of this data, I first plotted a graph that included the IEA's recommended ratio of 10 EVs per station as a target line.
 
-<img src="/blog_src/regio-charging-1/regio-charging-2/base.png" alt="Base Layer" class="border-none p-4"></img>
+<img src="/blog_src/regio-charging-2/base.png" alt="Base Layer" class="border-none p-4"></img>
 
 The design of the graph is minimalist, focusing solely on essential elements to facilitate understanding. A white background and the absence of gridlines ensure that the viewer's attention is centered on the critical information: the ratio of EVs to charging stations. Next, data points representing the performance of different German regions were added to the graph.
 
-<img src="/blog_src/regio-charging-1/regio-charging-2/regions_1.png" alt="All regions" class="border-none p-4"></img>
+<img src="/blog_src/regio-charging-2/regions_1.png" alt="All regions" class="border-none p-4"></img>
 
 Incorporating these data points adds real-world context but also introduces challenges due to the dispersion of points and differing population sizes. To address this, two key adjustments were made:
 
@@ -62,13 +85,13 @@ Incorporating these data points adds real-world context but also introduces chal
 
 Both changes enhance the graph's clarity and utility, aligning well with data visualization best practices.
 
-<img src="/blog_src/regio-charging-1/regio-charging-2/regions_2.png" alt="Regions formatted" class="border-none p-4"></img>
+<img src="/blog_src/regio-charging-2/regions_2.png" alt="Regions formatted" class="border-none p-4"></img>
 
 After implementing these adjustments to our graph, it's evident that most geographical areas lag behind the goal of having 10 electric vehicles (EVs) per charging station. However, small to medium-sized regions are an exception to this rule. An interesting observation is that the data for the three largest cities in Germany cluster closely together. This indicates that these cities, despite having different population sizes, have a similar ratio of EVs to charging stations. The implication here is that in larger cities, the availability of charging stations is becoming increasingly aligned with the number of EVs, rather than the size of the population.
 
 To build on this preliminary observation, the logical next step is to employ statistical methods. By doing so, we can estimate the number of charging stations needed for a specific number of EVs, while accounting for variables like regional differences within the Bundesländer, types of regions, and varying sizes in both area and population. Utilizing a statistical approach will enhance our understanding of the relationship between EVs and charging stations, making our initial observations from data visualization more robust.
 
-<img src="/blog_src/regio-charging-1/regio-charging-2/regression_1.png" alt="Regions with regression" class="border-none p-4"></img>
+<img src="/blog_src/regio-charging-2/regression_1.png" alt="Regions with regression" class="border-none p-4"></img>
 
 Further analysis allows us to estimate the number of charging stations required per number of EVs, keeping other factors constant. The results indicate that most regions have an estimated 25 to 30 EVs per station, with smaller regions performing slightly better. At this point, there are two avenues we can explore further:
 
@@ -76,7 +99,7 @@ We can examine how different variables influence our estimations and assess the 
 We can delve into regional differences within the Bundesländer.
 To offer a glimpse into the second point, we've colored the regions by Bundesländer in the graph. While this provides some initial insights—for instance, Bavaria seems to be doing well, while North Rhine-Westphalia lags behind—the data can become a bit cluttered. Future analyses could employ techniques such as clustering or faceting to make these patterns clearer.
 
-<img src="/blog_src/regio-charging-1/regio-charging-2/regression_2.png" alt="Regions with regression and Lands" class="border-none p-4"></img>
+<iframe src="https://plotly.com/~Purin/4/" width="800" height="800"></iframe>
 
 ---
 
