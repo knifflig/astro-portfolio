@@ -10,7 +10,7 @@ description:
 
 <div class="flex flex-row items-start w-full p-0 mt-12">
   <div class="">
-    <img src="/assets/author.jpeg" class="rounded-2xl float-left h-48 w-48 mb-0 mr-10 border-none">
+    <img src="/assets/zehe_cv_img3.jpeg" class="rounded-2xl float-left h-48 w-48 mb-0 mr-10 border-none">
     <p class="mt-2">I’m a political scientist by training. As a keen observer of society, I have a passion for bridging the gap between analytical methods and humans. I’m primarily familiar with R and Python, but have also done numerous smaller projects with other languages and frameworks and am always interested in learning new ones.</p>
   </div>
 </div>
